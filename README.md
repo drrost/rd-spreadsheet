@@ -20,7 +20,7 @@ iOS UI componet that allows to present data as a spreadsheet.
 
 ![](./docs/screen.png)
 
-## How to use
+## Usage
 
 * Add to you project
 
@@ -31,9 +31,7 @@ iOS UI componet that allows to present data as a spreadsheet.
     .exact("0.0.2")),
 ```
 
-## Usage
-
-In your view controller add
+* Add to your view controller:
 
 ```swift
 import RDSpreadsheet
