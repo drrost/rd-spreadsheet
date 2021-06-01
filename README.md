@@ -30,3 +30,23 @@ iOS UI componet that allows to present data as a spreadsheet.
     url: "git@github.com:drrost/rd-spreadsheet.git"
     .exact("0.0.1")),
 ```
+
+## Usage
+
+In your view controller add
+
+```swift
+import RDSpreadsheet
+
+// ...
+
+override func viewDidLoad() {
+    super.viewDidLoad()
+
+    let dataService = DataServiceImpl()
+    let spreadsheetVC = SpreadsheetVC.create(dataService)
+    navigationController?.pushViewController(spreadsheetVC, animated: false)
+}
+```
+
+where `DataServiceImpl` is an implementation of `IDataService` protocol.
