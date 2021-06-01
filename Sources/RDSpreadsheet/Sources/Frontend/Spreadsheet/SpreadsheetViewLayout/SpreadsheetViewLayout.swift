@@ -1,7 +1,7 @@
 //
 //  SpreadsheetViewLayout.swift
 //  RDSpreadsheet
-//
+//  git@github.com:drrost/rd-spreadsheet.git
 //  Created by Rostyslav Druzhchenko on 30.05.2021.
 //
 

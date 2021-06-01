@@ -28,7 +28,7 @@ iOS UI componet that allows to present data as a spreadsheet.
 .package(
     name: "RDSpreadsheet",
     url: "git@github.com:drrost/rd-spreadsheet.git"
-    .exact("0.0.1")),
+    .exact("0.0.2")),
 ```
 
 ## Usage
